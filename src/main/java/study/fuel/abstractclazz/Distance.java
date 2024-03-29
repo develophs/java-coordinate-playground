@@ -18,6 +18,10 @@ public class Distance {
         }
     }
 
+    public int getValue() {
+        return distance;
+    }
+
     @Override
     public boolean equals(final Object o) {
         if (this == o) return true;
