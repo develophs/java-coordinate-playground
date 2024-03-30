@@ -10,7 +10,7 @@ public class Sonata extends Car {
 
     @Override
     protected String report() {
-        return this.getClass().getName() + ":" + getFuel() + "리터\n";
+        return this.getClass().getSimpleName() + " : " + getFuel() + "리터";
     }
 
     @Override
