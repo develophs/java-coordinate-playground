@@ -14,9 +14,11 @@ public abstract class Car {
         return distance.getValue();
     }
 
-    protected abstract int getFuel();
+    protected String report() {
+        return getClass().getSimpleName() + " : " + getFuel() + "리터";
+    }
 
-    protected abstract String report();
+    protected abstract int getFuel();
 
     @Override
     public boolean equals(final Object o) {
