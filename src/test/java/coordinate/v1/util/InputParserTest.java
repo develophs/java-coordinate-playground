@@ -1,4 +1,4 @@
-package coordinate.v1;
+package coordinate.v1.util;
 
 import org.junit.jupiter.api.Test;
 
